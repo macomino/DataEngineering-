@@ -65,3 +65,4 @@ ann.df=data.frame(select(new.neater,-Class),
 pca<-prcomp(select(new.neater,-Class))
 autoplot(pca, colour = "class",size=2,data=ann.df)
 autoplot(pca,2,3, colour = "class",size=2,shape="real",data=ann.df)
+
